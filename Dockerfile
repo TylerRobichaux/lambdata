@@ -8,4 +8,4 @@ RUN apt-get update && apt-get upgrade -y && \
   apt-get install python3-pip -y && \
   pip3 install pandas && \
   pip install -i https://test.pypi.org/simple/ TylerRobichaux && \
-  python3 -c "from . import my_mod"
+  python3 -c "import mymods"
