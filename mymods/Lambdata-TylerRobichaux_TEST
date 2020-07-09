@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+
+
+import unittest
+from . import my_mod
+from . import my_mod_two
+
+
+class my_modTEST(unittest.TestCase):
+  """
+  A Test that checks if the my_mod mether is working correctly
+  """
+  def test_my_mod(self):
+    x = '   P Sherman 42 Wallaby Way Sydney '
+    y = my_mod(y1)
+    self.assertEqual(y, 'P Sherman 42 Wallaby Way Sydney')
