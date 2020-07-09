@@ -1,3 +1,1 @@
-# lambdata
-Stuff and things
-making changes
+This is a package I made for practice. It contains 3 methods. One that removes leading and trailing spaces. Another that takes a string and makes it lower case. The last says hello. It also contains testing functionality, to test that both methods are working correctly.
